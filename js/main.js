@@ -11,50 +11,43 @@ const kittenDescription_1= "Ruiseño, juguetón, le guta estar tranquilo y que n
 
 const kitten_1 = `<li class="card">
 <article>
-  <img
-    class="card_img"
-    src= $ {kittenImg_1} alt="gatito"
-  />
-  <h3 ${kittenName_1}class="card_title"></h3>
-  <h4 ${kittenRace_1}class="card_race"></h4>
-  <p ${kittenName_1}class="card_description">
-  
-  </p>
+  <img class="card_img"src= ${kittenImg_1} alt="gatito"/>
+  <h3 class="card_title">${kittenName_1}</h3>
+  <h4 class="card_race">${kittenRace_1}</h4>
+  <p class="card_description">${kittenName_1}</p>
 </article>
 </li>`;
 
 
+
+const kittenImg_2 = "https://images.emedicinehealth.com/images/article/main_image/cat-scratch-disease.jpg" ;
+const kittenName_2= "Fiona";
+const kittenRace_2= "British Shorthair";
+const kittenDescription_2= "Ruiseño, juguetón, le guta estar tranquilo y que nadie le moleste. Es una maravilla acariciarle!";
 
 
 const kitten_2 = `<li class="card">
 <article>
   <img
-    class="card_img"
-    src="https://images.emedicinehealth.com/images/article/main_image/cat-scratch-disease.jpg"
-    alt="gatito"
-  />
-  <h3 class="card_title">Fiona</h3>
-  <h4 class="card_race">British Shorthair</h4>
-  <p class="card_description">
-  Ruiseño, juguetón, le guta estar tranquilo y que nadie le moleste.
-  Es una maravilla acariciarle!
-  </p>
+    class="card_img"src = ${kittenImg_2} alt="gatito"/>
+  <h3 class="card_title">${kittenName_2}</h3>
+  <h4 class="card_race">${kittenRace_2}</h4>
+  <p class="card_description">${kittenDescription_2}</p>
 </article>
 </li>`;
+
+const kittenImg_3 =  "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/newscms/2019_39/3021711/190923-cat-pet-stock-cs-1052a.jpg";
+const kittenName_3= "Cielo";
+const kittenRace_3= "British Shorthair";
+const kittenDescription_3= "Ruiseño, juguetón, le guta estar tranquilo y que nadie le moleste. Es una maravilla acariciarle!";
 
 const kitten_3= `<li class="card">
 <article>
   <img
-    class="card_img"
-    src="https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/newscms/2019_39/3021711/190923-cat-pet-stock-cs-1052a.jpg"
-    alt="gatito"
-  />
-  <h3 class="card_title">Cielo</h3>
-  <h4 class="card_race">British Shorthair</h4>
-  <p class="card_description">
-  Ruiseño, juguetón, le guta estar tranquilo y que nadie le moleste.
-  Es una maravilla acariciarle!
-  </p>
+    class="card_img"src= ${kittenImg_3} alt="gatito"/>
+  <h3 class="card_title">${kittenName_3} </h3>
+  <h4 class="card_race">${kittenRace_3} </h4>
+  <p class="card_description">${kittenDescription_3}</p>
 </article>
 </li>`;
 
