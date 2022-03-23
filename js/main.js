@@ -55,23 +55,23 @@ const kitten_3 = `<li class="card">
 const list = document.querySelector(".js-list");
 list.innerHTML = kitten_1 + kitten_2 + kitten_3;
 
-// const input_search_desc = document.querySelector(".js_in_search_desc");
+const input_search_desc = document.querySelector(".js_in_search_desc");
 
-// input_search_desc.value = "cariñoso";
+input_search_desc.value = "cariñoso";
 
-// const descrSearchText = input_search_desc.value;
+const descrSearchText = input_search_desc.value;
 
-// let resultadoBusqueda = "";
-// if (kittenDescription_1.includes(descrSearchText)) {
-//   resultadoBusqueda = kitten_1;
-// }
+let resultadoBusqueda = "";
+if (kittenDescription_1.includes(descrSearchText)) {
+  resultadoBusqueda = kitten_1;
+}
 
-// if (kittenDescription_2.includes(descrSearchText)) {
-//   resultadoBusqueda = resultadoBusqueda + kitten_2;
-// }
+if (kittenDescription_2.includes(descrSearchText)) {
+  resultadoBusqueda = resultadoBusqueda + kitten_2;
+}
 
-// if (kittenDescription_3.includes(descrSearchText)) {
-//   resultadoBusqueda = resultadoBusqueda + kitten_3;
-// }
+if (kittenDescription_3.includes(descrSearchText)) {
+  resultadoBusqueda = resultadoBusqueda + kitten_3;
+}
 
-// list.innerHTML = resultadoBusqueda;
+list.innerHTML = resultadoBusqueda;
