@@ -78,10 +78,23 @@ list.innerHTML = resultadoBusqueda;
 
 newForm.classList.remove("collapsed");
 
-/*const formElement = document.querySelector(".js-new-form")*/
+/*const formElement = document.querySelector(".js-new-form")
 
 if(newForm.classList.contains("collapsed")) {
 newForm.classList.add ("collapsed");
 }else  {
   newForm.classList.remove ("collapsed");
+}*/
+
+const itemPlus = document.querySelector (".js_item");
+
+function hidden () {
+  if(newForm.classList.contains("collapsed")) {
+    newForm.classList.add ("collapsed");
+    }else{
+      newForm.classList.remove ("collapsed");
+      console.log ("hola");
 }
+
+
+itemPlus.addEventListener("click", hidden);
