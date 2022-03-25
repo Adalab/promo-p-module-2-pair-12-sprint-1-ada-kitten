@@ -130,3 +130,29 @@ const kittenData_3 = {
   desc: "Ruiseño, adorable, le guta estar tranquilo y que nadie le moleste. Es una maravilla acariciarle!",
 };
 
+function kitten () {
+  const kittenInfo ={
+    
+  };
+
+
+}
+
+
+
+
+
+function renderKitten (kitten) {
+list.innerHTML +=`<li class="card">
+<article>
+  <img
+    class="card_img"src= ${kitten.img} alt="gatito"/>
+  <h3 class="card_title">${kitten.name} </h3>
+  <h4 class="card_race">${kitten.race} </h4>
+  <p class="card_description">${kitten.desc}</p>
+</article>
+</li>`;
+
+}
+
+
