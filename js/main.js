@@ -80,8 +80,33 @@ newForm.classList.remove("collapsed");
 
 /*const formElement = document.querySelector(".js-new-form")*/
 
-if(newForm.classList.contains("collapsed")) {
-newForm.classList.add ("collapsed");
-}else  {
-  newForm.classList.remove ("collapsed");
+if (newForm.classList.contains("collapsed")) {
+  newForm.classList.add("collapsed");
+} else {
+  newForm.classList.remove("collapsed");
 }
+
+//Convertir cada gatito en un objeto
+
+const kittenData_1 = {
+  image: "https://ychef.files.bbci.co.uk/976x549/p07ryyyj.jpg",
+  name: "Anastacio",
+  race: "British Shorthair",
+  desc: "Risueño, cariñoso, le guta estar tranquilo y que nadie le moleste. Es una maravilla acariciarle!",
+};
+
+const kittenData_2 = {
+  image: "https://images.emedicinehealth.com/images/article/main_image/cat-scratch-disease.jpg"
+  name: "Fiona",
+  race: "British Shorthair",
+  desc: "cariñoso, juguetón, le guta estar tranquilo y que nadie le moleste. Es una maravilla acariciarle!",
+};
+
+const kittenData_3 = {
+  image: "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/newscms/2019_39/3021711/190923-cat-pet-stock-cs-1052a.jpg",
+  name: "Cielo",
+  race: "British Shorthair",
+  desc: "Ruiseño, adorable, le guta estar tranquilo y que nadie le moleste. Es una maravilla acariciarle!",
+};
+
+
