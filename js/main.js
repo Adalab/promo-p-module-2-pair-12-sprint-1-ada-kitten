@@ -78,13 +78,34 @@ list.innerHTML = resultadoBusqueda;
 
 newForm.classList.remove("collapsed");
 
-/*const formElement = document.querySelector(".js-new-form")*/
+
+if(newForm.classList.contains("collapsed")) {
+  newForm.classList.add ("collapsed");
+  }else  {
+    newForm.classList.remove ("collapsed");
+  }*/
+  
+  const itemPlus = document.querySelector (".js_item");
+  
+  function hidden () {
+    if(newForm.classList.contains("collapsed")) {
+      newForm.classList.add ("collapsed");
+      }else{
+        newForm.classList.remove ("collapsed");
+        console.log ("hola");
+  }
+  
+  
+  itemPlus.addEventListener("click", hidden);
+  
+
+/*const formElement = document.querySelector(".js-new-form")
 
 if (newForm.classList.contains("collapsed")) {
   newForm.classList.add("collapsed");
 } else {
   newForm.classList.remove("collapsed");
-}
+}*/
 
 //Convertir cada gatito en un objeto
 
@@ -108,5 +129,4 @@ const kittenData_3 = {
   race: "British Shorthair",
   desc: "Ruiseño, adorable, le guta estar tranquilo y que nadie le moleste. Es una maravilla acariciarle!",
 };
-
 
