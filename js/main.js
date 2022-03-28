@@ -83,7 +83,7 @@ if(newForm.classList.contains("collapsed")) {
   newForm.classList.add ("collapsed");
   }else  {
     newForm.classList.remove ("collapsed");
-  }*/
+  }
   
   const itemPlus = document.querySelector (".js_item");
   
@@ -94,7 +94,7 @@ if(newForm.classList.contains("collapsed")) {
         newForm.classList.remove ("collapsed");
         console.log ("hola");
   }
-  
+}
   
   itemPlus.addEventListener("click", hidden);
   
@@ -115,9 +115,10 @@ const kittenData_1 = {
   race: "British Shorthair",
   desc: "Risueño, cariñoso, le guta estar tranquilo y que nadie le moleste. Es una maravilla acariciarle!",
 };
+console.log (kittenData_1);
 
 const kittenData_2 = {
-  image: "https://images.emedicinehealth.com/images/article/main_image/cat-scratch-disease.jpg"
+  image: "https://images.emedicinehealth.com/images/article/main_image/cat-scratch-disease.jpg",
   name: "Fiona",
   race: "British Shorthair",
   desc: "cariñoso, juguetón, le guta estar tranquilo y que nadie le moleste. Es una maravilla acariciarle!",
@@ -130,19 +131,13 @@ const kittenData_3 = {
   desc: "Ruiseño, adorable, le guta estar tranquilo y que nadie le moleste. Es una maravilla acariciarle!",
 };
 
-function kitten () {
-  const kittenInfo ={
-    
-  };
-
-
-}
 
 
 
 
 
-function renderKitten (kitten) {
+
+/*function renderKitten (kitten) {
 list.innerHTML +=`<li class="card">
 <article>
   <img
@@ -153,6 +148,12 @@ list.innerHTML +=`<li class="card">
 </article>
 </li>`;
 
-}
+}*/
 
+
+
+const kittenDataList = [kittenData_1 , kittenData_2, kittenData_3];
+console.log (kittenDataList);
+console.log (kittenDataList);
+for (let i = 0; i< kittenDataList.length; i++) {list.innerHTML +=`<li>${kittenDataList[i]}</li>`}
 
